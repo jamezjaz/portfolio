@@ -1,12 +1,30 @@
 body {
-    background-color: #CFC8F3;
+  background-color: #CFC8F3;
+  font-size: 0.8rem;
+  line-height: 1.7;
 }
 
 nav {
-    background-color: #d6b0eb;
+  background-color: #5E92BE;
 }
 
 .intro {
-    background-image: url(/Images/Vector\ 12.png);
-    background-repeat: no-repeat;
+  background-image: url(/Images/Vector\ 12.png);
+  background-repeat: no-repeat;
+  height: auto;
+  line-height: 2.5;
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.intro2 {
+  font-size: 1rem;
+}
+
+.social-media {
+  width: 25rem;
+  border-radius: 1rem;
 }
