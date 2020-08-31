@@ -1,11 +1,19 @@
 body {
   background-color: #CFC8F3;
-  font-size: 0.8rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 2;
 }
 
 nav {
   background-color: #5E92BE;
+}
+
+.identity {
+  font-size: 1.5rem;
+}
+
+.occupation {
+  font-size: 1.2rem;
 }
 
 .intro {
@@ -13,6 +21,7 @@ nav {
   background-repeat: no-repeat;
   height: auto;
   line-height: 2.5;
+  padding: 4rem 0;
 }
 
 .welcome {
@@ -25,6 +34,60 @@ nav {
 }
 
 .social-media {
-  width: 25rem;
+  width: 30rem;
   border-radius: 1rem;
+}
+
+.fa-linkedin {
+  color: #0077B7; 
+}
+
+.fa-twitter {
+  color: #00ACED;
+}
+
+.fa-facebook-f {
+  color: #4C6EF5;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-twitter,
+.fa-facebook-f,
+.fa-at {
+  font-size: 1.2rem;
+}
+
+.portfolio {
+  margin: 0 4rem;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.skills {
+  font-size: 0.6rem;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .skills {
+    font-size: 0.5rem;
+    font-weight: lighter;
+    padding: 0 0.2rem;
+  }
+
+  .porfolio-skills {
+    padding: 0 0.2rem;
+  }
+
+  .identity {
+    font-size: 1rem;
+  }
+
+  .occupation {
+    font-size: 0.8rem;
+  }
 }
