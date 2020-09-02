@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav align-items-center font-weight-bold nav-list">
                 <li class="nav-item pb-1 pr-3">
-                  <a class="nav-list text-white" href="#"> Portfolio</a>
+                  <a class="nav-list text-white" href="#portfolio"> Portfolio</a>
                 </li>
                 <li class="nav-item pb-1 pr-3">
-                    <a class="nav-list text-white" href="#"> About</a>
+                    <a class="nav-list text-white" href="#about"> About</a>
                   </li>
                   <li class="nav-item pb-1 pr-3">
-                    <a class="nav-list text-white" href="#"> Contact</a>
+                    <a class="nav-list text-white" href="#contact"> Contact</a>
                   </li>
               </ul>
             </div>
@@ -68,10 +68,10 @@
                 </ul>
               </div>
           </section>
-          <section class="container-fluid">
+          <section id="portfolio" class="container-fluid mb-4">
             <h3 class="d-flex justify-content-center display-4 py-4 text-dark">My Portfolio</h3>
             <div class="portfolio row">
-              <div class="border col-md-6 bg-light">
+              <div class="border project-sect col-md-6 rounded">
                 <div class="coding-twitter">
                   <img src="/Images/Coding-show.png" class="coding-img img-fluid img-thumbnail w-100" alt="coding twitter">
                 </div>
@@ -102,7 +102,7 @@
                   <a class="btn btn-secondary" href="#" role="button">Source Code</a>
                 </div>
               </div>
-              <div class="border col-md-6 bg-light">
+              <div class="project-sect2 border col-md-6 rounded">
                 <div class="coding-twitter">
                   <img src="/Images/musical-search-desktop.png" class="coding-img img-fluid img-thumbnail w-100" alt="coding twitter">
                 </div>
@@ -126,6 +126,95 @@
                 <div class="button my-2 px-4">
                   <a class="btn btn-primary" href="#" role="button">Live Demo</a>
                   <a class="btn btn-secondary" href="#" role="button">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="about" class="about">
+            <h3 class="about text-dark text-center display-4 py-2">About Me</h3>
+            <p>
+              I am a passionate Full Stack Web Developer who recently switched career by attending a full-stack coding 
+              school that accepts a few percentages of applicants. I have built several applications. I am currently a 
+              mentor at Microverse. I develop user-friendly pages and I love trying new things. I am looking forward to 
+              bringing my passion to a permanent full-time remote software development position.
+            </p>
+            <div class="resume my-2">
+              <a class="btn btn-primary" href="#" role="button">Get My Resume</a>
+            </div>
+          </section>
+          <section class="row pro-skills py-4">
+            <div class="col-md-4 d-flex justify-content-center">
+              <a data-toggle="collapse" data-target="#languages" href="#"><div class="collapse-title border-bottom text-dark">Languages <i class="fas fa-caret-down"></i></div></a>
+              <div id="languages" class="collapse px-4">
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-primary"><i class="fab fa-html5"></i></div>
+                  <p class="language-name">HTML5</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-secondary"><i class="fab fa-css3"></i></div>
+                  <p class="language-name">CSS3</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-warning"><i class="fab fa-js"></i></div>
+                  <p class="language-name">Javascript</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-success"><i class="fas fa-gem"></i></div>
+                  <p class="language-name">Ruby</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-danger"><i class="fas fa-database"></i></div>
+                  <p class="language-name">SQL</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <a data-toggle="collapse" data-target="#frameworks" href="#"><div class="collapse-title border-bottom text-dark">Frameworks <i class="fas fa-caret-down"></i></div></a>
+              <div id="frameworks" class="collapse px-4">
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-primary"><img src="https://img.icons8.com/color/30/000000/bootstrap.png" class="bootstrap pt-1"/></div>
+                  <p class="language-name">Bootstrap</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-secondary"><i class="fas fa-road"></i></div>
+                  <p class="language-name">Rails</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-warning"><i class="fab fa-react"></i></div>
+                  <p class="language-name">React</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-success"><img src="https://img.icons8.com/fluent-systems-regular/24/000000/api-settings.png" class="pt-1"/></div>
+                  <p class="language-name">REST</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-success"><img src="https://img.icons8.com/fluent-systems-regular/24/000000/json.png" class="pt-1"/></div>
+                  <p class="language-name">JSON</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <a data-toggle="collapse" data-target="#skill-sets" href="#"><div class="collapse-title border-bottom text-dark">Skills <i class="fas fa-caret-down"></i></div></a>
+              <div id="skill-sets" class="collapse px-4">
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-primary"><img src="https://cbabhusal.files.wordpress.com/2015/12/812ab30c5723956adcf8c1bbaf23e471143e1934.png" class="skill-img pt-1"/></div>
+                  <p class="language-name">Unit <br> Test</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-secondary"><img src="https://www.pngkit.com/png/detail/119-1193079_icon-devicecompat-a-system-integration-testing-icon.png" class="skill-img pt-1"/></div>
+                  <p class="language-name">Integration <br> Test</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-warning"><img src="https://image.shutterstock.com/z/stock-vector-online-working-line-icon-remote-job-occupation-internet-freelance-job-concept-vector-1496297924.jpg" class="skill-img pt-1"/></div>
+                  <p class="language-name">Remote <br> Job</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-success"><i class="fab fa-git"></i></div>
+                  <p class="language-name">Git & <br> Github</p>
+                </div>
+                <div class="skills rounded bg-light text-center p-2 mb-1">
+                  <div class="language-icon rounded-circle bg-danger"><img src="https://img.icons8.com/material-sharp/24/000000/programming.png" class="pt-1"/></div>
+                  <p class="language-name">Pair <br> Programing </p>
                 </div>
               </div>
             </div>

@@ -58,8 +58,18 @@ nav {
   font-size: 1.2rem;
 }
 
-.portfolio {
+.portfolio,
+.about,
+.pro-skills {
   margin: 0 4rem;
+}
+
+.project-sect {
+  background-image: linear-gradient(#D0D0D0, #f7f2f2);
+}
+
+.project-sect2 {
+  background-color: #8AB1B9;
 }
 
 .project-title {
@@ -70,6 +80,18 @@ nav {
 .skills {
   font-size: 0.6rem;
   border-radius: 2rem;
+}
+
+.collapse-title {
+  font-size: 1.3rem;
+}
+
+.bootstrap {
+  width: 0.8rem;
+}
+
+.skill-img {
+  width: 0.8rem;
 }
 
 @media only screen and (max-width: 992px) {
