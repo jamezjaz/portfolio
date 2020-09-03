@@ -140,3 +140,13 @@ nav {
     justify-content: center !important;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .project-sect {
+    margin-bottom: 1rem;
+  }
+
+  .feature {
+    padding: 0 1rem;
+  }
+}
