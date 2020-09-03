@@ -83,6 +83,10 @@ nav {
   font-weight: 800;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .skills {
   font-size: 0.6rem;
   border-radius: 2rem;
