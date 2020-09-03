@@ -35,19 +35,19 @@ nav {
 }
 
 .social-media {
-  width: 30rem;
+  width: 25rem;
   border-radius: 1rem;
 }
 
-.fa-linkedin {
+.linkedin {
   color: #0077B7; 
 }
 
-.fa-twitter {
+.twitter {
   color: #00ACED;
 }
 
-.fa-facebook-f {
+.facebook {
   color: #4C6EF5;
 }
 
@@ -104,6 +104,17 @@ nav {
   font-size: 1.5rem;
 }
 
+.contact-form {
+  background-image: url(/Images/footer\ shape.jpg);
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 992px) {
+  .media-contact {
+    padding: 0 12rem 3rem 0;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .skills {
     font-size: 0.5rem;
@@ -121,5 +132,11 @@ nav {
 
   .occupation {
     font-size: 0.8rem;
+  }
+
+  .media-contact-icons,
+  .email {
+    display: flex;
+    justify-content: center !important;
   }
 }
