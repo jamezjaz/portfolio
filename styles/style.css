@@ -1,12 +1,12 @@
 body {
-  background-color: #CFC8F3;
+  background-color: #cfc8f3;
   font-size: 1rem;
   line-height: 2;
   overflow-x: hidden;
 }
 
 nav {
-  background-color: #5E92BE;
+  background-color: #5e92be;
 }
 
 .identity {
@@ -40,15 +40,15 @@ nav {
 }
 
 .linkedin {
-  color: #0077B7; 
+  color: #0077b7;
 }
 
 .twitter {
-  color: #00ACED;
+  color: #00aced;
 }
 
 .facebook {
-  color: #4C6EF5;
+  color: #4c6ef5;
 }
 
 .fa-github,
@@ -71,11 +71,11 @@ nav {
 }
 
 .project-sect {
-  background-image: linear-gradient(#D0D0D0, #f7f2f2);
+  background-image: linear-gradient(#d0d0d0, #f7f2f2);
 }
 
 .project-sect2 {
-  background-color: #8AB1B9;
+  background-color: #8ab1b9;
 }
 
 .project-title {
