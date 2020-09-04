@@ -150,3 +150,23 @@ nav {
     padding: 0 1rem;
   }
 }
+
+@media only screen and (max-width: 481px) {
+  .porfolio-skills p {
+    font-size: 0.3rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .skills {
+    display: none;
+  }
+}
