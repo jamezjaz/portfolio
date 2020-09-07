@@ -18,7 +18,7 @@ nav {
 }
 
 .intro {
-  background-image: url(/Images/Vector\ 12.png);
+  background-image: url(../Images/Vector\ 12.png);
   background-repeat: no-repeat;
   height: auto;
   line-height: 2.5;
@@ -105,7 +105,7 @@ nav {
 }
 
 .contact-form {
-  background-image: url(/Images/footer\ shape.jpg);
+  background-image: url(../Images/footer\ shape.jpg);
   background-repeat: no-repeat;
 }
 
@@ -149,6 +149,14 @@ nav {
   .feature {
     padding: 0 1rem;
   }
+
+  .social-media {
+    width: 14rem;
+  }
+
+  .social {
+    font-size: 0.2rem;
+  }
 }
 
 @media only screen and (max-width: 481px) {
@@ -159,9 +167,17 @@ nav {
   .project-title {
     font-size: 1.5rem;
   }
+
+  .fa-github,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-facebook-f,
+  .fa-at {
+    font-size: 0.7rem;
+  }
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 370px) {
   .project-title {
     font-size: 1rem;
   }
