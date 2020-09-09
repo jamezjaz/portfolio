@@ -1,0 +1,188 @@
+body {
+  background-color: #cfc8f3;
+  font-size: 1rem;
+  line-height: 2;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #5e92be;
+}
+
+.identity {
+  font-size: 1.5rem;
+}
+
+.occupation {
+  font-size: 1.2rem;
+}
+
+.intro {
+  background-image: url(../Images/Vector\ 12.png);
+  background-repeat: no-repeat;
+  height: auto;
+  line-height: 2.5;
+  padding: 4rem 0;
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.intro2 {
+  font-size: 1rem;
+}
+
+.social-media {
+  width: 25rem;
+  border-radius: 1rem;
+}
+
+.linkedin {
+  color: #0077b7;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.facebook {
+  color: #4c6ef5;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-twitter,
+.fa-facebook-f,
+.fa-at {
+  font-size: 1.2rem;
+}
+
+.portfolio,
+.about,
+.pro-skills {
+  margin: 0 4rem;
+}
+
+.my-portfolio,
+.about-me {
+  font-size: 2.5rem;
+}
+
+.project-sect {
+  background-image: linear-gradient(#d0d0d0, #f7f2f2);
+}
+
+.project-sect2 {
+  background-color: #8ab1b9;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.skills {
+  font-size: 0.6rem;
+  border-radius: 2rem;
+}
+
+.collapse-title {
+  font-size: 1.3rem;
+}
+
+.bootstrap {
+  width: 0.8rem;
+}
+
+.skill-img {
+  width: 0.8rem;
+}
+
+.collaborate {
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  background-image: url(../Images/footer\ shape.jpg);
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 992px) {
+  .media-contact {
+    padding: 0 12rem 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .skills {
+    font-size: 0.5rem;
+    font-weight: lighter;
+    padding: 0 0.2rem;
+  }
+
+  .porfolio-skills {
+    padding: 0 0.2rem;
+  }
+
+  .identity {
+    font-size: 1rem;
+  }
+
+  .occupation {
+    font-size: 0.8rem;
+  }
+
+  .media-contact-icons,
+  .email {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .project-sect {
+    margin-bottom: 1rem;
+  }
+
+  .feature {
+    padding: 0 1rem;
+  }
+
+  .social-media {
+    width: 14rem;
+  }
+
+  .social {
+    font-size: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .porfolio-skills p {
+    font-size: 0.3rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .fa-github,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-facebook-f,
+  .fa-at {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .skills {
+    display: none;
+  }
+}
