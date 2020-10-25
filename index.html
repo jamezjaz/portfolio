@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177394163-1"></script>
     <script>
@@ -10,7 +11,6 @@
 
       gtag('config', 'UA-177394163-1');
     </script>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James Chigozie Odufu</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -50,7 +50,7 @@
           <section class="intro">
               <div class="bio d-flex flex-column align-items-center">
                 <h2 class="welcome text-dark">
-                  Welcome! <br>
+                  Welcome!<br>
                   I'm James, a Software Developer.
                 </h2>
                 <p class="intro2">
@@ -107,6 +107,64 @@
                 <div class="button my-2 px-4">
                   <a class="btn btn-primary" href="https://fierce-island-70166.herokuapp.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
                   <a class="btn btn-secondary" href="https://github.com/jamezjaz/coding_twitter" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                </div>
+              </div>
+              <div class="border project-sect2 col-md-6 rounded">
+                <div class="js-clock">
+                  <img src="./Images/clock1.png" class="coding-img img-fluid img-thumbnail w-100" alt="js-clock">
+                </div>
+                <div class="px-4">
+                  <h3 class="project-title">JavaScript Clock</h3>
+                  <div class="text-dark font-weight-bold">
+                    <span>Microverse</span>
+                    <span><i class="fas fa-circle px-2"></i>Front-End</span>
+                    <span><i class="fas fa-circle px-2"></i>2020</span>
+                  </div>
+                  <p>
+                    This is an analog clock designed with JavaScript, HTML and CSS.
+                  </p>
+                </div>
+                <div class="porfolio-skills d-flex my-2 px-4">
+                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                </div>
+                <div class="porfolio-skills d-flex my-2 px-4">
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
+                </div>
+                <div class="button my-2 px-4">
+                  <a class="btn btn-primary" href="http://javascript-clock1.s3-website.us-east-2.amazonaws.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/JS_Clock" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                </div>
+              </div>
+              <div class="project-sect1 border col-md-6 rounded">
+                <div class="coding-twitter">
+                  <img src="./Images/restaurant-page1.png" class="coding-img img-fluid img-thumbnail w-100" alt="restaurant page">
+                </div>
+                <div class="px-4">
+                  <h3 class="project-title">Restaurant Page</h3>
+                  <div class="text-dark font-weight-bold">
+                    <span>Microverse</span>
+                    <span><i class="fas fa-circle px-2"></i>Front End</span>
+                    <span><i class="fas fa-circle px-2"></i>2020</span>
+                  </div>
+                  <p>
+                    This is an exquisite restaurant landing page.
+                    It has four pages, viz: the home page, the menu page, the about page and the contact page.
+                  </p>
+                </div>
+                <div class="porfolio-skills d-flex my-2 px-4">
+                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                </div>
+                <div class="porfolio-skills d-flex my-2 px-4">
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
+                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">WEBPACK</p>
+                </div>
+                <div class="button my-2 px-4">
+                  <a class="btn btn-primary" href="https://rawcdn.githack.com/jamezjaz/restaurant_page/536096676c83fb6b1258eb4708d1a65d4aa0fd1a/dist/index.html#" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/restaurant_page" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
                 </div>
               </div>
               <div class="project-sect2 border col-md-6 rounded">
@@ -235,16 +293,17 @@
               <p class="feature text-dark">If you have an application, a feature, a project that you're interested in developing. I'd be happy to help.</p>
             </div>
             <div class="form">
-              <form action="index.html" method="post">
+              <div id="error" class="error text-center text-danger font-weight-bold"></div>
+              <form id="form" action="index.html" method="get">
                 <div class="form-group d-flex justify-content-center">
-                  <input type="text" class="form-control w-25" name="name" placeholder="Your name">
-                  <input type="email" class="form-control w-25" name="email" placeholder="name@example.com">
+                    <input type="text" id="name" class="form-control w-25" name="name" placeholder="Your name">
+                    <input type="email" id="email" class="form-control w-25" name="email" placeholder="name@example.com">
                 </div>
                 <div class="form-group d-flex justify-content-center">
-                  <textarea name="message" class="form-control w-50" rows="10" placeholder="Your message"></textarea>
+                    <textarea name="message" id="message" class="form-control w-50" rows="7" placeholder="Your message"></textarea>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
-                  <a class="btn btn-primary" href="#" role="button">Get in touch</a>
+                  <button id="submit" class="btn btn-primary" type="submit">Submit</button>
                 </div>
               </form>
             </div>
@@ -266,12 +325,13 @@
               </ul>
             </div>
           </section>
-        <footer class="d-flex justify-content-center bg-light py-2">
-          <p class="footer-text">© 2020 Jaz-Tech. All Rights Reserved.</p>
+        <footer class="d-flex justify-content-center py-2">
+          <p class="footer-text text-white">© 2020 Jaz-Tech. All Rights Reserved.</p>
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </main>
+    <script src="/assets/script.js"></script>
 </body>
 </html>

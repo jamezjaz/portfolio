@@ -1,12 +1,11 @@
 body {
-  background-color: #cfc8f3;
   font-size: 1rem;
   line-height: 2;
   overflow-x: hidden;
 }
 
 nav {
-  background-color: #5e92be;
+  background-color: #6b55e6;
 }
 
 .identity {
@@ -28,6 +27,22 @@ nav {
 .welcome {
   font-size: 2rem;
   font-weight: bolder;
+}
+
+h2 {
+  animation: type 4s steps(44);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 44ch;
+  }
 }
 
 .intro2 {
@@ -70,14 +85,6 @@ nav {
   font-size: 2.5rem;
 }
 
-.project-sect {
-  background-image: linear-gradient(#d0d0d0, #f7f2f2);
-}
-
-.project-sect2 {
-  background-color: #8ab1b9;
-}
-
 .project-title {
   font-size: 2rem;
   font-weight: 800;
@@ -107,6 +114,14 @@ nav {
 .contact-form {
   background-image: url(../Images/footer\ shape.jpg);
   background-repeat: no-repeat;
+}
+
+.error {
+  font-size: 0.7rem;
+}
+
+footer {
+  background-color: #6b55e6;
 }
 
 @media only screen and (min-width: 992px) {
