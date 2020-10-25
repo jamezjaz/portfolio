@@ -30,6 +30,22 @@ nav {
   font-weight: bolder;
 }
 
+h2 {
+  animation: type 4s steps(44);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 44ch;
+  }
+}
+
 .intro2 {
   font-size: 1rem;
 }
