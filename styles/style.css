@@ -37,7 +37,7 @@ h2 {
 
 @keyframes type {
   0% {
-    width: 0ch;
+    width: 0;
   }
 
   100% {
