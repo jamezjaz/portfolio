@@ -235,16 +235,17 @@
               <p class="feature text-dark">If you have an application, a feature, a project that you're interested in developing. I'd be happy to help.</p>
             </div>
             <div class="form">
-              <form action="index.html" method="post">
+              <div id="error" class="error text-center text-danger font-weight-bold"></div>
+              <form id="form" action="\" method="get">
                 <div class="form-group d-flex justify-content-center">
-                  <input type="text" class="form-control w-25" name="name" placeholder="Your name">
-                  <input type="email" class="form-control w-25" name="email" placeholder="name@example.com">
+                    <input type="text" id="name" class="form-control w-25" name="name" placeholder="Your name">
+                    <input type="email" id="email" class="form-control w-25" name="email" placeholder="name@example.com">
                 </div>
                 <div class="form-group d-flex justify-content-center">
-                  <textarea name="message" class="form-control w-50" rows="10" placeholder="Your message"></textarea>
+                    <textarea name="message" id="message" class="form-control w-50" rows="10" placeholder="Your message"></textarea>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
-                  <a class="btn btn-primary" href="#" role="button">Get in touch</a>
+                  <button id="submit" class="btn btn-primary" type="submit">Submit</button>
                 </div>
               </form>
             </div>
@@ -273,5 +274,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </main>
+    <script src="/assets/script.js"></script>
 </body>
 </html>

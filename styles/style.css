@@ -125,6 +125,10 @@ h2 {
   background-repeat: no-repeat;
 }
 
+.error {
+  font-size: 0.7rem;
+}
+
 @media only screen and (min-width: 992px) {
   .media-contact {
     padding: 0 12rem 3rem 0;
