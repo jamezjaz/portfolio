@@ -1,18 +1,19 @@
-# portfolio
+# Portfolio
 This is my portfolio, and it showcases some of my projects, links to their live versions and GitHub repos..
 
+## Preview
 
-![portfolio-shot](https://user-images.githubusercontent.com/57812000/92660436-033a0c80-f2c0-11ea-8ceb-dac7da4e6c86.png)
+![portfolio](https://user-images.githubusercontent.com/57812000/97123284-192d5080-16f9-11eb-8aad-b6dc0abb7ddc.png)
 
-![portfolio-shot2](https://user-images.githubusercontent.com/57812000/92660490-1947cd00-f2c0-11ea-918c-6a965b5b4e5d.png)
+![portfolio2](https://user-images.githubusercontent.com/57812000/97123303-3bbf6980-16f9-11eb-8a71-b91b5300b3c5.png)
 
-![portfolio-shot3](https://user-images.githubusercontent.com/57812000/92660526-28c71600-f2c0-11ea-8e25-add9c170d1f0.png)
+![portfolio3](https://user-images.githubusercontent.com/57812000/97123309-4843c200-16f9-11eb-96cf-169b08b8432c.png)
 
 I employed HTML5 elements, CSS, and Bootstrap with a touch of JS. It is continuously updated as I move forward on my software development journey, so keep an eye on it!.
 
 ## Live version
 
-[Live Version](http://jamezjaz-portfolio.s3-website.us-east-2.amazonaws.com/)
+[Live Version](http://jaz-portfolio.s3-website.us-east-2.amazonaws.com/)
 
 ## Built With
 
