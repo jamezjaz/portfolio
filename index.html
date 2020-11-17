@@ -47,16 +47,24 @@
               </ul>
             </div>
           </nav>
-          <section class="intro">
-              <div class="bio d-flex flex-column align-items-center">
-                <h2 class="welcome text-dark">
-                  Welcome!<br>
+          <section id="about" class="intro">
+              <div class="bio text-white font-weight-bold">
+                <h2 class="welcome">
+                  Welcome to my portfolio <i class="fas fa-smile"></i><br>
                   I'm James, a Software Developer.
                 </h2>
                 <p class="intro2">
                   I build applications and responsive web pages. <br>
-                  Do not hesistate to contact me if you need products, features or websites.
+                  I am a passionate Full Stack Web Developer who recently switched career by attending a full-stack <br> 
+                  coding school that only accepts a small percentage of applicants and where I am also currently a student mentor. <br>
                 </p>
+                <p class="font-weight-light">
+                  I am looking forward to bringing my passion to your projects. <br>
+                  Do not hesitate to contact me if you need products, features, or websites.
+                </p>
+                <div class="resume my-2">
+                  <a class="btn btn-primary" href="./files/Resume.pdf" download role="button">Get My Resume</a>
+                </div>
               </div>
               <div class="social-media bg-light mx-auto mt-3">
                 <ul class="d-flex justify-content-center pt-1">
@@ -75,136 +83,161 @@
                 </ul>
               </div>
           </section>
-          <section id="portfolio" class="container-fluid mb-4">
+          <section id="portfolio">
             <h3 class="my-portfolio d-flex justify-content-center py-4 text-dark">My Portfolio</h3>
-            <div class="portfolio row">
-              <div class="border project-sect col-md-6 rounded">
-                <div class="coding-twitter">
+            <div class="container container-fluid mb-4">
+              <div class="card">
+                <div class="imgBox">
                   <img src="./Images/Coding-show.png" class="coding-img img-fluid img-thumbnail w-100" alt="coding twitter">
                 </div>
-                <div class="px-4">
-                  <h3 class="project-title">Coding Twitter</h3>
-                  <div class="text-dark font-weight-bold">
+                <div class="content text-dark">
+                  <h2 class="font-weight-bold">Coding Twitter</h2>
+                  <div class="d-flex font-weight-bold">
                     <span>Microverse</span>
                     <span><i class="fas fa-circle px-2"></i>Full-Stack</span>
                     <span><i class="fas fa-circle px-2"></i>2020</span>
                   </div>
-                  <p>
-                    This is a social media application (twitter redesign) where users can sign up/sign in, make tweets about 
-                    coding challenges and how to solve them, like other users' tweets, follow others, and be followed as well, 
-                    delete tweets and edit their profiles.
+                  <p class="mb-4">
+                    This is a social media application (Twitter redesign) where users can sign up/sign in, 
+                    make tweets about coding challenges, and how to solve them, like other users' tweets, 
+                    follow others, and be followed as well, delete tweets and edit their profiles.
                   </p>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                  </div>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">RUBY</p>
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">RUBY ON RAILS</p>
+                  </div>
+                  <div class="button d-flex my-2 px-4">
+                    <a class="btn btn-primary pro-button mx-1" href="https://fierce-island-70166.herokuapp.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                    <a class="btn btn-secondary pro-button mx-1" href="https://github.com/jamezjaz/coding_twitter" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                  </div>
                 </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
-                </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">RUBY</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">RUBY ON RAILS</p>
-                </div>
-                <div class="button my-2 px-4">
-                  <a class="btn btn-primary" href="https://fierce-island-70166.herokuapp.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
-                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/coding_twitter" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
-                </div>
+                <h2 class="title-hide text-center font-weight-bold pb-3">Coding Twitter</h2>
               </div>
-              <div class="border project-sect2 col-md-6 rounded">
-                <div class="js-clock">
+              <div class="card">
+                <div class="imgBox">
                   <img src="./Images/clock1.png" class="coding-img img-fluid img-thumbnail w-100" alt="js-clock">
                 </div>
-                <div class="px-4">
-                  <h3 class="project-title">JavaScript Clock</h3>
-                  <div class="text-dark font-weight-bold">
+                <div class="content text-dark">
+                  <h2 class="font-weight-bold">JavaScript Clock</h2>
+                  <div class="d-flex font-weight-bold">
                     <span>Microverse</span>
                     <span><i class="fas fa-circle px-2"></i>Front-End</span>
                     <span><i class="fas fa-circle px-2"></i>2020</span>
                   </div>
-                  <p>
-                    This is an analog clock designed with JavaScript, HTML and CSS.
+                  <p class="mb-4">
+                    This is an analog clock designed with JavaScript, HTML, and CSS.
+                    Users should be able to know the actual local real-time.
                   </p>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                  </div>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
+                  </div>
+                  <div class="button d-flex my-2 px-4">
+                    <a class="btn btn-primary pro-button mx-1" href="http://javascript-clock1.s3-website.us-east-2.amazonaws.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                    <a class="btn btn-secondary pro-button mx-1" href="https://github.com/jamezjaz/JS_Clock" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                  </div>
                 </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
-                </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
-                </div>
-                <div class="button my-2 px-4">
-                  <a class="btn btn-primary" href="http://javascript-clock1.s3-website.us-east-2.amazonaws.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
-                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/JS_Clock" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
-                </div>
+                <h2 class="title-hide text-center font-weight-bold pb-3">JavaScript Clock</h2>
               </div>
-              <div class="project-sect1 border col-md-6 rounded">
-                <div class="coding-twitter">
+              <div class="card">
+                <div class="imgBox">
                   <img src="./Images/restaurant-page1.png" class="coding-img img-fluid img-thumbnail w-100" alt="restaurant page">
                 </div>
-                <div class="px-4">
-                  <h3 class="project-title">Restaurant Page</h3>
-                  <div class="text-dark font-weight-bold">
+                <div class="content text-dark">
+                  <h2 class="font-weight-bold">Restaurant Page</h2>
+                  <div class="d-flex font-weight-bold">
                     <span>Microverse</span>
                     <span><i class="fas fa-circle px-2"></i>Front End</span>
                     <span><i class="fas fa-circle px-2"></i>2020</span>
                   </div>
-                  <p>
+                  <p class="mb-4">
                     This is an exquisite restaurant landing page.
-                    It has four pages, viz: the home page, the menu page, the about page and the contact page.
+                    It has four pages, viz: the home page, the menu page, the about page, and the contact page.
                   </p>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                  </div>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">WEBPACK</p>
+                  </div>
+                  <div class="button d-flex my-2 px-4">
+                    <a class="btn btn-primary pro-button mx-1" href="https://rawcdn.githack.com/jamezjaz/restaurant_page/536096676c83fb6b1258eb4708d1a65d4aa0fd1a/dist/index.html#" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                    <a class="btn btn-secondary pro-button mx-1" href="https://github.com/jamezjaz/restaurant_page" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                  </div>
                 </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
-                </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">WEBPACK</p>
-                </div>
-                <div class="button my-2 px-4">
-                  <a class="btn btn-primary" href="https://rawcdn.githack.com/jamezjaz/restaurant_page/536096676c83fb6b1258eb4708d1a65d4aa0fd1a/dist/index.html#" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
-                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/restaurant_page" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
-                </div>
+                <h2 class="title-hide text-center font-weight-bold pb-3">Restaurant Page</h2>
               </div>
-              <div class="project-sect2 border col-md-6 rounded">
-                <div class="coding-twitter">
+              <div class="card">
+                <div class="imgBox">
                   <img src="./Images/musical-search-desktop.png" class="coding-img img-fluid img-thumbnail w-100" alt="coding twitter">
                 </div>
-                <div class="px-4">
-                  <h3 class="project-title">Musical Instruments Shop</h3>
-                  <div class="text-dark font-weight-bold">
+                <div class="content text-dark">
+                  <h2 class="font-weight-bold">Musical Instruments Shop</h2>
+                  <div class="d-flex font-weight-bold">
                     <span>Microverse</span>
                     <span><i class="fas fa-circle px-2"></i>Front End</span>
                     <span><i class="fas fa-circle px-2"></i>2020</span>
                   </div>
-                  <p>
-                    This project is a design of an online musical instruments store. Here, 
-                    one can actually search and place order for musical instruments online
+                  <p class="mb-4">
+                    This project is the design of an online musical instruments store. Here, 
+                    one can search and place an order for musical instruments online.
                   </p>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                  </div>
+                  <div class="button d-flex my-2 px-4">
+                    <a class="btn btn-primary pro-button mx-1" href="https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/3b21a1307ee2744cbac4a6bc0674f48187957643/index.html" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                    <a class="btn btn-secondary pro-button mx-1" href="https://github.com/jamezjaz/musical-instrument-shop" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                  </div>
                 </div>
-                <div class="porfolio-skills d-flex my-2 px-4">
-                  <p class="skills px-2 py-1 mr-1 text-white bg-dark font-weight-bold">HTML</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">CSS</p>
-                  <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
-                </div>
-                <div class="button my-2 px-4">
-                  <a class="btn btn-primary" href="https://rawcdn.githack.com/jamezjaz/musical-instrument-shop/3b21a1307ee2744cbac4a6bc0674f48187957643/index.html" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
-                  <a class="btn btn-secondary" href="https://github.com/jamezjaz/musical-instrument-shop" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
-                </div>
+                <h2 class="title-hide text-center font-weight-bold pb-3">Musical Instru. Shop</h2>
               </div>
-            </div>
-          </section>
-          <section id="about" class="about">
-            <h3 class="about-me text-dark text-center py-2">About Me</h3>
-            <p>
-              I am a passionate Full Stack Web Developer who recently switched career by attending a full-stack coding 
-              school that accepts a few percentages of applicants. I have built several applications. I am currently a 
-              mentor at Microverse. I develop user-friendly pages and I love trying new things. I am looking forward to 
-              bringing my passion to a permanent full-time remote software development position.
-            </p>
-            <div class="resume my-2">
-              <a class="btn btn-primary" href="./files/Resume.pdf" download role="button">Get My Resume</a>
+              <div class="card">
+                <div class="imgBox">
+                  <img src="./Images/weather.png" class="coding-img img-fluid img-thumbnail w-100" alt="weather">
+                </div>
+                <div class="content text-dark">
+                  <h2 class="font-weight-bold">Weather App</h2>
+                  <div class="d-flex font-weight-bold">
+                    <span>Microverse</span>
+                    <span><i class="fas fa-circle px-2"></i>Front End</span>
+                    <span><i class="fas fa-circle px-2"></i>2020</span>
+                  </div>
+                  <p class="mb-4">
+                    A weather app made from OpenWeatherMap API. It's built with JavaScript, HTML, CSS, and Webpack.
+                    Users should be able to get the weather condition(s) of almost everywhere across the globe.
+                  </p>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 mr-1 text-white bg-dark font-weight-bold">HTML</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">CSS</p>
+                    <p class="skills px-2 mx-1 text-white bg-dark font-weight-bold">BOOTSTRAP</p>
+                  </div>
+                  <div class="porfolio-skills d-flex justify-content-center my-2 px-4">
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">JAVASCRIPT</p>
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">WEBPACK</p>
+                    <p class="skills px-2 py-1 mx-1 text-white bg-dark font-weight-bold">API</p>
+                  </div>
+                  <div class="button d-flex my-2 px-4">
+                    <a class="btn btn-primary pro-button mx-1" href="http://weather-app1.s3-website.us-east-2.amazonaws.com/" target="_blank" role="button" rel="noopener noreferrer">Live Demo</a>
+                    <a class="btn btn-secondary pro-button mx-1" href="https://github.com/jamezjaz/Weather_App" target="_blank" role="button" rel="noopener noreferrer">Source Code</a>
+                  </div>
+                </div>
+                <h2 class="title-hide text-center font-weight-bold pb-3">Weather App</h2>
+              </div>
             </div>
           </section>
           <section class="row pro-skills py-4">
@@ -285,16 +318,16 @@
               </div>
             </div>
           </section>
-          <section id="contact" class="contact-form d-flex-row my-4">
+          <section id="contact" class="contact-form text-white d-flex-row my-4">
             <div class="collaborate d-flex justify-content-center">
-              <h3 class="text-dark font-weight-bold py-3">Interested in collaborating?</h3>
+              <h3 class="interested font-weight-bold">Interested in collaborating?</h3>
             </div>
             <div class="d-flex justify-content-center">
-              <p class="feature text-dark">If you have an application, a feature, a project that you're interested in developing. I'd be happy to help.</p>
+              <p class="feature">Reach out to me...</p>
             </div>
             <div class="form">
               <div id="error" class="error text-center text-danger font-weight-bold"></div>
-              <form id="form" action="index.html" method="get">
+              <form id="form" action="https://formspree.io/f/mqkglgdy" method="post">
                 <div class="form-group d-flex justify-content-center">
                     <input type="text" id="name" class="form-control w-25" name="name" placeholder="Your name">
                     <input type="email" id="email" class="form-control w-25" name="email" placeholder="name@example.com">
@@ -303,11 +336,11 @@
                     <textarea name="message" id="message" class="form-control w-50" rows="7" placeholder="Your message"></textarea>
                 </div>
                 <div class="d-flex justify-content-center pb-3">
-                  <button id="submit" class="btn btn-primary" type="submit">Submit</button>
+                  <button id="submit" class="btn btn-primary" type="submit">Get in Touch</button>
                 </div>
               </form>
             </div>
-            <div class="media-contact mx-auto mt-3">
+            <div class="media-contact mx-auto">
               <span class="email text-white d-flex justify-content-end">jamezjaz@gmail.com</span>
               <ul class="media-contact-icons d-flex justify-content-end pt-1">
                 <li class="mx-2">

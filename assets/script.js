@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) => {
     messages.push('Name is required!');
   }
 
-  if (name.value.length <= 3) {
+  if (name.value != '' && name.value.length <= 3) {
     messages.push('Name must be longer than 3 characters!');
   }
 
@@ -33,7 +33,7 @@ form.addEventListener('submit', (event) => {
     messages.push('Message field must not be empty!');
   }
 
-  if (message.value.length <= 10) {
+  if (message.value != '' && message.value.length <= 10) {
     messages.push('Message must be longer than 10 characters!');
   }
 
