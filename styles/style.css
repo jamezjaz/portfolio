@@ -106,7 +106,7 @@ h2 {
   max-width: 300px;
   height: 215px;
   margin: 1rem 1rem 3.5rem 1rem;
-  box-shadow: 0 5px 20px rbga(0, 0, 0, 0.5);
+  box-shadow: 0 5px 20px rbga(0, 0, 0, 0.5); /* stylelint-disable */
   transition: 0.3s ease-in-out;
 }
 
