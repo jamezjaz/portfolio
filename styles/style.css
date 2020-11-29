@@ -235,6 +235,14 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  .bio {
+    padding-left: 6rem;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+
   .project-sect {
     margin-bottom: 1rem;
   }
@@ -261,7 +269,30 @@ footer {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .welcome {
+    font-size: 1.2rem;
+  }
+
+  .resume {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 481px) {
+  .welcome {
+    font-size: 1rem;
+  }
+
+  .intro2 {
+    font-size: 0.8rem;
+  }
+
   .porfolio-skills p {
     font-size: 0.3rem;
   }
