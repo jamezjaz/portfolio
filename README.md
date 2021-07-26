@@ -13,7 +13,7 @@ I employed HTML5 elements, CSS, and Bootstrap with a touch of JS. It is continuo
 
 ## Live version
 
-[Live Version](http://jaz-portfolio.s3-website.us-east-2.amazonaws.com/)
+[Live Version](http://jamezjaz.com/)
 
 ## Built With
 
