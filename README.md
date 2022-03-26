@@ -19,6 +19,7 @@ I employed HTML5 elements, CSS, and Bootstrap with a touch of JS. It is continuo
 
 - HTML
 - CSS
+- JavaScript
 - Font Awesome
 - Bootstrap
 
